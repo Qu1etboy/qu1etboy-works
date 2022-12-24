@@ -1,1 +1,3 @@
-export const schemaTypes = []
+import work from './work'
+
+export const schemaTypes = [work]
