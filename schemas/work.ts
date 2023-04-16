@@ -28,5 +28,11 @@ export default {
       type: 'text',
       title: 'Description',
     },
+    {
+      name: 'tag',
+      type: 'array',
+      title: 'Tag',
+      of: [{type: 'string'}],
+    },
   ],
 }
